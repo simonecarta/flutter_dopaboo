@@ -1,4 +1,5 @@
 import 'package:dopaboo/appbar.dart';
+import 'package:dopaboo/categories.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -15,7 +16,7 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         children: [
           TopBar(),
-          
+          categories(),
         ],
       ),
     );
