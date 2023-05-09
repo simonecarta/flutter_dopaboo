@@ -26,17 +26,18 @@ class _categoriesState extends State<categories> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 500,
+      height: 540,
       child: GridView.builder(
         padding: const EdgeInsets.all(15),
         itemCount: 10,
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, crossAxisSpacing: 12, mainAxisSpacing: 12),
+            crossAxisCount: 2, crossAxisSpacing: 12, mainAxisSpacing: 14),
         itemBuilder: (context, index) {
           return Container(
             color: Color.fromARGB(111, 252, 204, 102),
             alignment: Alignment.center,
-            child: Text(listageneri[index], style: TextStyle(fontSize: 18),),
+            child: 
+            Text(listageneri[index], style: TextStyle(fontSize: 18),),
           );
         },
       ),

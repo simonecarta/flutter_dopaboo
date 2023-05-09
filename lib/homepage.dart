@@ -2,6 +2,8 @@ import 'package:dopaboo/appbar.dart';
 import 'package:dopaboo/categories.dart';
 import 'package:flutter/material.dart';
 
+import 'homepage/bottomnavbar.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -17,6 +19,7 @@ class _HomePageState extends State<HomePage> {
         children: [
           TopBar(),
           categories(),
+          bottomNavBar(),
         ],
       ),
     );
