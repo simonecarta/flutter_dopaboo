@@ -1,8 +1,7 @@
-import 'package:dopaboo/appbar.dart';
+import 'package:dopaboo/topbar.dart';
 import 'package:dopaboo/categories.dart';
 import 'package:flutter/material.dart';
-
-import 'homepage/bottomnavbar.dart';
+import 'bottomnavbar.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
